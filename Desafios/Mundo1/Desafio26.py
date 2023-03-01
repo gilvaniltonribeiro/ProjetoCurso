@@ -1,0 +1,7 @@
+frase = str(input('Digite uma frase')).strip()
+A = frase.upper().count('A')
+print('A letra A aparece {} vezes'.format(A))
+A1 = frase.upper().find('A')
+print('A letra A aparece na posição {} pela primeira vez'.format(A1 + 1))
+A2 = frase.upper().rfind('A')
+print('A letra A aparece na ultima posição {} pela ultima vez'.format(A2 + 1))

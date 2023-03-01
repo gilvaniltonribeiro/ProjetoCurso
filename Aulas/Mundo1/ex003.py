@@ -1,0 +1,6 @@
+n1 = int(input('Escolha um número'))
+n2 = int(input('Escolha outro'))
+s = (n1+n2)
+#print('A soma entre {}'.format(n1), 'e {}'.format(n2), 'vale {}'.format(s))
+print(type(s))
+print('A soma entre {0} e {1} vale {2}'.format(n1, n2, s))

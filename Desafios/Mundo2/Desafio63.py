@@ -1,0 +1,10 @@
+n = int(input('Quantos termos? '))
+cont = 0
+fib = 0
+fib1 = 1
+while cont != n:
+    soma = fib + fib1
+    print(soma, end='-> ')
+    fib = fib1
+    fib1 = soma
+    cont += 1
